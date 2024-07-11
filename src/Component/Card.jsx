@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Component/Card.scss';
 
-export default function Card() {
+export default function Card({userName="vikas"}) {
     return (
         <>
             <div class="cards">
@@ -10,7 +10,7 @@ export default function Card() {
                         <img src="https://i.ibb.co/n8k943H/fotorama7.jpg" alt="" />
                     </div>
                     <div class="cart__content">
-                        <h2>Titre</h2>
+                        <h2>{userName}</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat error ea necessitatibus. Esse, iusto earum!</p>
 
                     </div>

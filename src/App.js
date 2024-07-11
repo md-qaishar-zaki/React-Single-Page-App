@@ -1,14 +1,14 @@
+import React from 'react';
 import './App.css';
-import Card from '././Component/Card'
+import Counter from './Component/Number_Counter/Counter';
+import BgChange from './Component/Bg_Change/Bg_change';
+
 
 function App() {
   return (
     <>
-      <h2>Welcome To Proops</h2>
-      <div class="container">
-        <Card />
-        <Card />
-      </div>
+      <Counter /> 
+      <BgChange />
     </>
   );
 }
